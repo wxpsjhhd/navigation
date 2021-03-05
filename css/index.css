@@ -1,0 +1,30 @@
+#container {
+  max-width: 1080px;
+  margin: 0 auto;
+  background-color: aqua;
+}
+#container #header {
+  height: 50px;
+  background-color: beige;
+}
+#container #main #lside {
+  width: 50%;
+  height: 600px;
+  background-color: #9393d1;
+  float: left;
+}
+#container #main #rside {
+  width: 50%;
+  height: 600px;
+  background-color: #fda6a6;
+  float: right;
+}
+#container #main .clr {
+  clear: both;
+  width: 0;
+  height: 0;
+}
+#container #footer {
+  height: 50px;
+  background-color: #8fc6eb;
+}
